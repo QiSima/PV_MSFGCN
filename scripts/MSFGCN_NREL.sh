@@ -1,5 +1,5 @@
 export CUDA_VISIBLE_DEVICES=0
-dataset=NERL
+dataset=NREL
 model_name=MSF_GCN
 train_epochs=20
 patience=3
@@ -27,7 +27,7 @@ python -u run.py \
   --task_name long_term_forecast \
   --is_training 1 \
   --unit_num $unit_num \
-  --root_path ./dataset/NERL/unit_$unit_num'/' \
+  --root_path ./dataset/NREL/unit_$unit_num'/' \
     --data_path data.csv \
     --adj_data adj_mx.pkl \
     --model_id $dataset'_'$unit_num \
