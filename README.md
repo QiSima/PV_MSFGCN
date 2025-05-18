@@ -29,7 +29,7 @@ bash scripts/MSFGCN_PVOD.sh
 # EODP dataset
 bash scripts/MSFGCN_EODP.sh
 # NREL dataset
-bash scripts/MSFGCN_NERL.sh
+bash scripts/MSFGCN_NREL.sh
 ```
 # Acknowledgement
 This work was supported by the National Natural Science Foundation of China (72242104), the China Postdoctoral Science Foundation (2024M761027), and the Interdisciplinary Research Program of Hust (2024JCYJ020).
